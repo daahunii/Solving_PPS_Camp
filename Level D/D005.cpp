@@ -19,8 +19,17 @@ Baekjoon
 */
 
 #include<iostream>
+#include<vector>
+#include<algorithm>
+#include<string>
+using namespace std;
 int main()
 {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int N, M; // 듣도 못한 수, 보도 못한 수
+    cin >> N >> M;
     
+
     return 0;
 }
