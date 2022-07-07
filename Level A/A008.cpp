@@ -22,7 +22,23 @@ Baekjoon
 using namespace std;
 int main()
 {
-    int C; // testcase
-    
+    int C, N, jumsu[1000]; // testcase, 학생 수
+    double avg = 0;
+    cin >> C;
+    for(int i=0; i<C; i++){
+        cin >> N;
+        int jumsu_sum = 0;
+        for(int j=0; j<N; j++){
+            cin >> jumsu[j];
+            jumsu_sum += jumsu[j];
+        }
+        avg = jumsu_sum / N;
+        double over = 0; // 평균을 넘는 학생 수
+        for(int j=0; j<N; j++) if(avg < jumsu[j]) over++;
+        double result = (over / N) * 100;
+        cout.precision(3); 
+        cout << fixed; // 셋째자리로 자리값 조정
+        cout << result << "%" << endl;
+    }
     return 0;
 }
