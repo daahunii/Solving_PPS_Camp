@@ -23,21 +23,50 @@ Constraints:
 ==============================================================================
 */
 
+#include<iostream>
+#include<vector>
+using namespace std;
 class Solution {
 public:
     int countPrimes(int n) {
-        
+        int i = 0, j = 0;
+        vector<int> v;
+
+        if(n == 0 || n == 1) i = 0;
+        else{
+            for(i=2; i<n; i++){
+                for(j=2; j<i; j++) if(i % j == 0) break;
+                if(i == j) v.push_back(i);
+            }
+        }
+        return v.size();
     }
 };
 
 int main()
 {
-    int num, check = 0;
-    cout >> "Input number : ";
-    cin << num;
-
-    for(int i=2; i<=num; i++){
-        for(int j=1; j<i; j++)
-    }
+    int result = Solution().countPrimes(499979);
+    cout << result;
     return 0;
 }
+
+//*** other solution ***
+
+// class Solution {
+// public:
+//     int countPrimes(int n) {
+//         if(n<=2)return 0;
+        
+//         vector<bool>isPrime(n+5);
+//         for(int i=2;i<n+2;i++)
+//         {
+//             if(isPrime[i]==false)
+//             {
+//                 for(int j=i+i;j<n+2;j+=i)isPrime[j]=true;
+//             }
+//         }
+//         int c=0;
+//         for(int i=2;i<n;i++)if(!isPrime[i])c++;
+//         return c;
+//     }
+// };
