@@ -21,18 +21,25 @@ Output: true
 */
 
 #include <iostream>
-#include <math.h>
+#include <cmath>
 using namespace std;
 
 class Solution {
 public:
     bool isPowerOfFour(int n) {
-        
+        if(n == 0 || n < 0) return false;
+        if(n == 1) return true;   
+        while(n > 1){
+            if(n%4 != 0) return false;
+            n /= 4;
+        }
+        return true;
     }
 };
 
 int main()
 {
-
+    bool result = Solution().isPowerOfFour(5);
+    cout << result;
     return 0;
 }
