@@ -18,6 +18,49 @@ Baekjoon
 출력
 N일 뒤의 재현이의 기분이 좋은 날일 확률과 싫은 날일 확률에 1,000을 곱해
 소수점 첫째자리에서 반올림한 수를 차례대로 출력한다. 절대 오차는 100까지 허용한다.
+
+N번째 날 Good = (n-1)번째 날 좋은 날 확률 * gg + (n-1)번째 날 싫은 날 확률 * bg
+N번째 날 Bad = (n-1)번째 날 싫은 날 확률 * gb + (n-1)번째 날 좋은 날 확률 * bb
 ===================================================================================================
 */
 
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int N, feel; // N일 뒤 기분, 기분(0: 좋은 날, 1: 싫은 날)
+//     double gg, gb, bg, bb, p, q;
+//     cin >> N >> feel;
+//     cin >> gg >> gb >> bg >> bb;
+//     if(feel == 1) q = 1.0;
+//     else p = 1.0;
+
+//     for(int i=0; i<N; i++){
+//         double x = gg*p + bg*q; // N번째 날 Good = (n-1)번째 날 좋은 날 확률 * gg + (n-1)번째 날 싫은 날 확률 * bg
+//         double y = gb*p + bb*q; // N번째 날 Bad = (n-1)번째 날 싫은 날 확률 * gb + (n-1)번째 날 좋은 날 확률 * bb
+//         p = x, q = y;
+//     }
+//     cout << 1000*p << endl;
+//     cout << 1000*q << endl;
+//     return 0;
+// }
+
+#include <stdio.h>
+double gg, gb, bg, bb, p, q;
+int main()
+{
+    int N, feel; // N일 뒤 기분, 기분(0: 좋은 날, 1: 싫은 날)
+    scanf("%d %d", &N, &feel);
+    scanf("%lf %lf %lf %lf", &gg, &gb, &bg, &bb);
+    if(feel == 1) q = 1.0;
+    else p = 1.0;
+    
+    for(int i=0; i<N; i++){
+        double x = gg*p + bg*q;
+        double y = gb*p + bb*q;
+        p = x, q = y;
+    }
+    printf("%d\n%d", (int)(1000*p), (int)(1000*q));
+    return 0;
+}
