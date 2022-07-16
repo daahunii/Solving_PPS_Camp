@@ -40,6 +40,8 @@
   - A024 (860. Lemonade Change)
   - A025 (342. Power of Four)
   - A037 (728. Self Dividing Numbers)
+  - A038 (69. Sqrt(x))
+  - A039 (367. Valid Perfect Square)
 
 <hr/>
 
