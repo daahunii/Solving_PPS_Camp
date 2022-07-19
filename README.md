@@ -22,6 +22,7 @@
   - A033 (2953. 나는 요리사다)
   - A034 (3052. 나머지)
   - A035 (5355. 화성 수학)
+  - A046 (1159. 농구 경기)
   - B001 (2606. 바이러스)
   - B006 (1260. DFS와 BFS)
   - C026 (15552. 빠른 A+B)
@@ -42,6 +43,11 @@
   - A037 (728. Self Dividing Numbers)
   - A038 (69. Sqrt(x))
   - A039 (367. Valid Perfect Square)
+  - A040 (1704. Determine if String Halves Are Alike)
+  - A042 (844. Backspace String Compare)
+  - A043 (14. Longest Common Prefix) --> 다시 풀어보기
+  - A044 (551. Student Attendance Record I)
+  - A045 (1157. 단어 공부)
 
 <hr/>
 
@@ -56,6 +62,7 @@
   - A016 (구명보트)
   - A026 (하샤드 수)
   - A027 (큰 수 만들기)
+  - A041 (JadenCase 문자열 만들기)
 
 <hr/>
 
