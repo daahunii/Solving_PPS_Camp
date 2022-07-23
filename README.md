@@ -33,6 +33,7 @@
   - B001 (2606. 바이러스)
   - B006 (1260. DFS와 BFS)
   - C026 (15552. 빠른 A+B)
+  - C037 (6571. 피보나치 수의 개수) --> 다시 풀어보기
   - D002 (10250. ACM 호텔)
 
 <hr/>
@@ -55,6 +56,7 @@
   - A043 (14. Longest Common Prefix) --> 다시 풀어보기
   - A044 (551. Student Attendance Record I)
   - A045 (1157. 단어 공부)
+  - A055 (1021. Remove Outermost Parentheses)
 
 <hr/>
 
