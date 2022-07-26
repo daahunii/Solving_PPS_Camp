@@ -58,7 +58,7 @@
   - A045 (1157. 단어 공부)
   - A055 (1021. Remove Outermost Parentheses)
   - A056 (496. Next Greater Element I)
-  - A058 (206. Reverse Linked List)
+  - A058 (206. Reverse Linked List) --> 다시 풀어보기
 
 <hr/>
 
@@ -80,3 +80,4 @@
 
 - codeground
   - A036 (숫자 골라내기)
+  - A059 (시험 공부)
