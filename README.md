@@ -57,6 +57,8 @@
   - A044 (551. Student Attendance Record I)
   - A045 (1157. 단어 공부)
   - A055 (1021. Remove Outermost Parentheses)
+  - A056 (496. Next Greater Element I)
+  - A058 (206. Reverse Linked List)
 
 <hr/>
 
@@ -72,6 +74,7 @@
   - A027 (큰 수 만들기)
   - A041 (JadenCase 문자열 만들기)
   - A054 (크레인 인형뽑기 게임)
+  - A057 (쿠키 구입)
 
 <hr/>
 
