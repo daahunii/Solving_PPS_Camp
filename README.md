@@ -60,6 +60,8 @@
   - A056 (496. Next Greater Element I)
   - A058 (206. Reverse Linked List) --> 다시 풀어보기
   - A060 (682. Baseball Game)
+  - A061 (168. Excel Sheet Column Title)
+  - A063 (67. Add Binary)
 
 <hr/>
 
@@ -76,6 +78,7 @@
   - A041 (JadenCase 문자열 만들기)
   - A054 (크레인 인형뽑기 게임)
   - A057 (쿠키 구입)
+  - A062 (2016년)
 
 <hr/>
 
