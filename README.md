@@ -59,6 +59,7 @@
   - A055 (1021. Remove Outermost Parentheses)
   - A056 (496. Next Greater Element I)
   - A058 (206. Reverse Linked List) --> 다시 풀어보기
+  - A060 (682. Baseball Game)
 
 <hr/>
 
