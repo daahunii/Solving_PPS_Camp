@@ -32,6 +32,9 @@
   - A053 (10828. 스택)
   - A065 (11650. 좌표 정렬하기)
   - A066 (1427. 소트인사이드)
+  - A068 (18258. 큐 2)
+  - A069 (11866. 요세푸스 문제 0)
+  - A70 (2164. 카드2)
   - B001 (2606. 바이러스)
   - B006 (1260. DFS와 BFS)
   - C026 (15552. 빠른 A+B)
@@ -65,6 +68,7 @@
   - A061 (168. Excel Sheet Column Title)
   - A063 (67. Add Binary)
   - A064 (1051. Height Checker)
+  - A067 (1047. Remove All Adjacent Duplicates In String)
 
 <hr/>
 
