@@ -69,6 +69,10 @@
   - A063 (67. Add Binary)
   - A064 (1051. Height Checker)
   - A067 (1047. Remove All Adjacent Duplicates In String)
+  - A071 (232. Implement Queue using Stacks)
+  - A072 (1154. Day of the Year)
+  - A073 (412. Fizz Buzz)
+  - A074 (125. Valid Palindrome)
 
 <hr/>
 
@@ -86,6 +90,7 @@
   - A054 (크레인 인형뽑기 게임)
   - A057 (쿠키 구입)
   - A062 (2016년)
+  - A075 (가장 큰 수)
 
 <hr/>
 
