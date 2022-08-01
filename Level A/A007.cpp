@@ -16,8 +16,8 @@ c는 1로, d는 2로, ..., C를 8로 바꾼다.
 ===============================================================================================
 */
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 using namespace std;
 int main()
 {

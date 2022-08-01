@@ -16,7 +16,7 @@ Programmers
 */
 #include <string>
 #include <iostream>
-#include<algorithm>
+#include <algorithm>
 using namespace std;
 
 bool solution(string s)

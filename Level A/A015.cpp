@@ -18,8 +18,8 @@ Baekjoon
 ====================================================================================
 */
 
-#include<iostream>
-#include<math.h>
+#include <iostream>
+#include <math.h>
 using namespace std;
 
 int main()
