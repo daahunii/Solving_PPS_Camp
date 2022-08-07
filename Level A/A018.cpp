@@ -20,10 +20,10 @@ N은 50보다 작거나 같은 자연수이고, A와 B의 각 원소는 100보�
 ==============================================================================================
 */
 
-#include<iostream>
-#include<vector>
-#include<algorithm>
-#include<functional> // less, greater
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <functional> // less, greater
 using namespace std;
 
 int main()
